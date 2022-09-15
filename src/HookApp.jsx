@@ -1,5 +1,5 @@
 export const HookApp = () => {
   return (
-    <h1>HookApp</h1>
+    <h1>Hook App</h1>
   )
 }
