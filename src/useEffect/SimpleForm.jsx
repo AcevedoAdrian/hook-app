@@ -43,8 +43,12 @@ export const SimpleForm = () => {
       value={username}
       onChange={handelInputChange}
     />
-    { username === 'juan2' && <Messages />} 
-     <input 
+    
+    { 
+      username === 'juan2' && <Messages />
+    } 
+    
+    <input 
       type="email"
       className="form-control mt-3"
       placeholder="email@gmail.com"
